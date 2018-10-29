@@ -6,7 +6,7 @@ export interface FormInputInterface {
 }
 export interface FormStateInterface {
     setState(key: string, value: any): Promise<void>;
-    getState(key: string): Promise<any>;
+    getState(key?: string): Promise<any>;
     clearState(): Promise<void>;
 }
 export interface FormRouterInterface {
