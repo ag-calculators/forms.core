@@ -1,0 +1,21 @@
+{
+  "name": "@ag-calculators/forms.core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "author": "John Robinson<johnrob1880@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.1.3"
+  }
+}
